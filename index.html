@@ -3,16 +3,30 @@
   <head>
     <title>Игра пятнашки</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+	    #main {
+	    	display: flex;
+	    }
+	    .col {
+	    	width: 50%;
+	    }
+    </style>
   </head>
   <body>
     <h1>Мои проекты</h1>
+	  <div id="main">
+		  <div class="col">
     <h2>Демонстрация keyframes css</h2>
 	  <p>Кликните на квадрат несколько раз - и он переместится</p>
 	  <div id="container">
 		  <div class="cell" id="c1">1</div>		
 	  </div>
+		  </div>
+		  <div class="col">
     <h2>Игра пятнашки</h2>
 	  <a href="field.html">Поле для игры на Javascript</a>
+		  </div>
+	  </div>
     <script src="js/keyframes.js"></script>
   </body>
 </html>
