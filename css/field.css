@@ -1,0 +1,51 @@
+#container {
+  position: relative;			
+  margin-left: 5px;
+  height: 520px;
+}
+.cell {
+  width: 120px;
+  height:  80px;
+  background-color: lightseagreen;
+  padding-top:  40px;			
+  text-align: center;
+  color: white;
+  font-size:  24px;			
+  cursor: pointer;
+  position: absolute;
+
+}
+@keyframes go-right {
+  0% {
+    transform:  translateX(0px);
+  }   
+    100% {
+      transform: translateX(130px);
+    }
+}
+@keyframes go-up {   
+    0% {
+    transform:  translateY(0px);
+  }   
+    100% {
+      transform: translateY(-130px);
+    }
+}
+@keyframes go-left {   
+    0% {
+    transform:  translateX(0px);
+  }   
+    100% {
+      transform: translateX(-130px);
+    }
+}
+
+@keyframes go-down {   
+    0% {
+    transform:  translateY(0px);
+  }   
+  100% {
+      transform: translateY(130px);
+  }
+
+}
